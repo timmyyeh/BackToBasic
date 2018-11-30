@@ -1,1 +1,1 @@
-include ':1-GestureAndFragment'
+include ':1-GestureAndFragment', ':2-TextandAnimation'

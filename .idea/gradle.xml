@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/1-GestureAndFragment" />
+            <option value="$PROJECT_DIR$/2-TextandAnimation" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
