@@ -6,11 +6,15 @@ import android.support.design.widget.CoordinatorLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.transition.TransitionManager;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -98,5 +102,18 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
         textView.setText(sb.toString());
 
+    }
+
+    public void onStartAnimation(View view) {
+        TransitionManager.beginDelayedTransition((ViewGroup) findViewById(R.id.animate_view));
+        Button button = (Button) findViewById(R.id.animation_button);
+
+        RelativeLayout.LayoutParams positions = new RelativeLayout.LayoutParams(
+                RelativeLayout.LayoutParams.WRAP_CONTENT,
+                RelativeLayout.LayoutParams.WRAP_CONTENT
+        );
+
+        positions.addRule(RelativeLayout.ALIGN_PARENT_RIGHT, RelativeLayout.TRUE);
+        button.setLayoutParams(positions);
     }
 }

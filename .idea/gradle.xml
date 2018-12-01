@@ -8,8 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/1-GestureAndFragment" />
-            <option value="$PROJECT_DIR$/2-TextandAnimation" />
+            <option value="$PROJECT_DIR$/Day1_GestureAndFragment" />
+            <option value="$PROJECT_DIR$/Day2_TextandAnimation" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
