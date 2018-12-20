@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/Day1_GestureAndFragment" />
             <option value="$PROJECT_DIR$/Day2_TextandAnimation" />
             <option value="$PROJECT_DIR$/Day3_Intent" />
+            <option value="$PROJECT_DIR$/Day4_Thread" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

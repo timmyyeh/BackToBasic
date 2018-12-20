@@ -1,1 +1,1 @@
-include ':Day1_GestureAndFragment', ':Day2_TextandAnimation', ':Day3_Intent'
+include ':Day1_GestureAndFragment', ':Day2_TextandAnimation', ':Day3_Intent', ':Day4_Thread'
